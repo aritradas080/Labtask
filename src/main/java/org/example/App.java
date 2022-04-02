@@ -25,10 +25,10 @@ public class App
         String date = myObj.nextLine();
 
         if(date.equals(m.getStringDate())){
-            System.out.println("MidTerm Exam");
+            System.out.println("MidTerm Exam is going");
         }
         else if(date.equals(f.getStringDate())){
-            System.out.println("FinalTerm Exam");
+            System.out.println("FinalTerm Exam is going");
         }
     }
 }
